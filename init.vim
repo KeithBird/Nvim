@@ -50,52 +50,52 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 
 
-" python-mode
+" Python-mode
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 " fzf
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
-" nerdtree
+" Nerdtree -> file system explorer  
 Plug 'scrooloose/nerdtree'
 
-" indentline
+" indentline -> show indents
 Plug 'yggdroot/indentline'
 
 " airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" surround
+" surround -> double (
 Plug 'tpope/vim-surround'
 
-" easymotion
+" easymotion -> ss
 Plug 'easymotion/vim-easymotion'
 
-" tagbar
+" tagbar -> right_tag
 Plug 'majutsushi/tagbar'
 
 " deoplete
-" coc.nvim
+" coc.nvim -> complete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" neoformat
+" neoformat -> autopep8
 Plug 'sbdchd/neoformat'
 
-" ale
+" ale -> linter 异步语法检查 
 Plug 'dense-analysis/ale'
 
-" commentary
+" commentary -> /*...*/
 Plug 'tpope/vim-commentary'
 
-" fugitive
+" fugitive -> Git包装器
 Plug 'tpope/vim-fugitive'
 
-" gv.vim
+" gv.vim -> git browser
 Plug 'junegunn/gv.vim'
 
-" gitgutter 
+" gitgutter -> shows a git diff
 Plug 'airblade/vim-gitgutter'
 
 " hybrid
@@ -191,6 +191,10 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " deoplete
 " let g:deoplete#enable_at_startup = 1
+
+" tagbar
+let g:tagbar_width=30
+nmap <leader>tb :TagbarToggle<CR>
 
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
