@@ -122,7 +122,7 @@ let g:pymode_warnings = 0
 let g:pymode_trim_whitespaces = 1
 let g:pymode_options = 1
 "显示允许的最大长度的列
-"let g:pymode_options_colorcolumn = 1
+let g:pymode_options_colorcolumn = 1
 "设置QuickFix窗口的最大，最小高度
 "let g:pymode_quickfix_minheight = 3
 "let g:pymode_quickfix_maxheight = 10
@@ -131,7 +131,7 @@ let g:pymode_python = 'python3'
 "使用PEP8风格的缩进
 let g:pymode_indent = 1
 "取消代码折叠
-"let g:pymode_folding = 0
+let g:pymode_folding = 0
 "开启python-mode定义的移动方式
 "let g:pymode_motion = 1
 "启用python-mode内置的python文档，使用K进行查找
@@ -163,22 +163,22 @@ let g:pymode_lint_cwindow = 0
 "let g:pymode_lint_info_symbol = 'II'
 "let g:pymode_lint_pyflakes_symbol = 'FF'
 "启用重构
-let g:pymode_rope = 1
+"let g:pymode_rope = 1
 "不在父目录下查找.ropeproject，能提升响应速度
-let g:pymode_rope_lookup_project = 0
+"let g:pymode_rope_lookup_project = 0
 "光标下单词查阅文档
-let g:pymode_rope_show_doc_bind = '<C-c>d'
+"let g:pymode_rope_show_doc_bind = '<C-c>d'
 "项目修改后重新生成缓存
-let g:pymode_rope_regenerate_on_write = 1
+"let g:pymode_rope_regenerate_on_write = 1
 "开启补全，并设置<C-Tab>为默认快捷键
-"let g:pymode_rope_completion = 1
-"let g:pymode_rope_complete_on_dot = 1
-"let g:pymode_rope_completion_bind = '<C-Tab>'
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope_completion_bind = '<C-Tab>'
 "<C-c>g跳转到定义处，同时新建竖直窗口打开
 let g:pymode_rope_goto_definition_bind = '<C-]>'
 let g:pymode_rope_goto_definition_cmd = 'vnew'
 "重命名光标下的函数，方法，变量及类名
-"let g:pymode_rope_rename_bind = '<C-c>rr'
+let g:pymode_rope_rename_bind = '<C-c>rr'
 "重命名光标下的模块或包
 "let g:pymode_rope_rename_module_bind = '<C-c>r1r'
 "开启python所有的语法高亮
@@ -189,15 +189,11 @@ let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 "高亮空格错误
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
-" deoplete
-" let g:deoplete#enable_at_startup = 1
-
 " tagbar
 let g:tagbar_width=30
 nmap <leader>tb :TagbarToggle<CR>
 
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
-
 
 let g:python3_host_prog = '/usr/local/bin/python3'
