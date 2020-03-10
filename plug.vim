@@ -29,7 +29,6 @@ Plug 'easymotion/vim-easymotion'
 " tagbar -> right_tag
 Plug 'majutsushi/tagbar'
 
-" deoplete
 " coc.nvim -> complete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -48,7 +47,7 @@ Plug 'tpope/vim-fugitive'
 " gv.vim -> git browser
 Plug 'junegunn/gv.vim'
 
-" gitgutter -> shows a git diff
+" gitgutter -> show a git diff
 Plug 'airblade/vim-gitgutter'
 
 " hybrid

@@ -42,6 +42,7 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
 
+" Plug
 source ~/.config/nvim/plug.vim
 
 " easymotion-s2
