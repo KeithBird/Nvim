@@ -59,10 +59,10 @@ set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
 
 " Ubuntu
-let g:python3_host_prog = '/usr/bin/python3'
+" let g:python3_host_prog = '/usr/bin/python3'
 
 " Mac
-" let g:python3_host_prog = '/usr/local/bin/python3'
+ let g:python3_host_prog = '/usr/local/bin/python3'
 
 " mac.zshrc
 " alias python3='/usr/local/bin/python3'

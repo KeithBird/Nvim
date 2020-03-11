@@ -50,6 +50,10 @@ Plug 'junegunn/gv.vim'
 " gitgutter -> show a git diff
 Plug 'airblade/vim-gitgutter'
 
+
+
+" /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/colors
+
 " hybrid
 Plug 'w0ng/vim-hybrid'
 
