@@ -4,7 +4,20 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 
 " Python-mode
+" 更改python路径
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+
+" coc.nvim -> complete
+" 配置js环境，见wiki
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" neoformat -> autopep8
+" pip autopep8,见视频
+Plug 'sbdchd/neoformat'
+
+" ale -> linter 异步语法检查
+" pip,见视频
+Plug 'dense-analysis/ale'
 
 " fzf
 Plug 'junegunn/fzf', { 'do': './install --bin' }
@@ -29,15 +42,6 @@ Plug 'easymotion/vim-easymotion'
 " tagbar -> right_tag
 Plug 'majutsushi/tagbar'
 
-" coc.nvim -> complete
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" neoformat -> autopep8
-Plug 'sbdchd/neoformat'
-
-" ale -> linter 异步语法检查 
-Plug 'dense-analysis/ale'
-
 " commentary -> /*...*/
 Plug 'tpope/vim-commentary'
 
@@ -49,6 +53,9 @@ Plug 'junegunn/gv.vim'
 
 " gitgutter -> show a git diff
 Plug 'airblade/vim-gitgutter'
+
+" undotree
+Plug 'mbbill/undotree'
 
 
 

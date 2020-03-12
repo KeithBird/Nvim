@@ -1,4 +1,4 @@
-" 设置行号
+" 行号
 set number
 
 " 代码高亮
@@ -42,6 +42,11 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
 
+nnoremap <leader>ff :FZF<CR> 
+nnoremap <leader>nf :NERDTree<CR>
+
+
+
 " Plug
 source ~/.config/nvim/plug.vim
 
@@ -53,7 +58,14 @@ source ~/.config/nvim/python_mode.vim
 
 " tagbar
 let g:tagbar_width=30
-nmap <leader>tb :TagbarToggle<CR>
+
+"undotree
+nnoremap <leader>ud :UndotreeToggle<CR>
+set undodir=~/.undodir/
+set undofile
+
+
+
 
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
