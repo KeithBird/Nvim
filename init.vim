@@ -1,6 +1,6 @@
 " 行号
 set number
-
+	
 " 代码高亮
 syntax on
 
@@ -12,6 +12,9 @@ colorscheme iceberg
 let mapleader = "\<space>"
 let g:mapleader= "\<space>"
 
+" 缩进为4
+set shiftwidth=4
+    
 " 按F2进入粘贴模式
 set pastetoggle=<F2>
 
@@ -19,7 +22,7 @@ set pastetoggle=<F2>
 set hlsearch
 
 " 设置折叠方式
-set foldmethod=indent
+" set foldmethod=indent
 
 " jj进入normal模式
 inoremap jj <Esc>`^
@@ -44,26 +47,12 @@ inoremap { {}<Esc>i
 
 nnoremap <leader>ff :FZF<CR> 
 nnoremap <leader>nf :NERDTree<CR>
+nnoremap <leader>ag :Ag<space>
 
-
+			
 
 " Plug
 source ~/.config/nvim/plug.vim
-
-" easymotion-s2
-nmap ss <Plug>(easymotion-s2)
-
-"python-mode
-source ~/.config/nvim/python_mode.vim 
-
-" tagbar
-let g:tagbar_width=30
-
-"undotree
-nnoremap <leader>ud :UndotreeToggle<CR>
-set undodir=~/.undodir/
-set undofile
-
 
 
 

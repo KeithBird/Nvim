@@ -3,9 +3,15 @@ call plug#begin('~/.local/share/nvim/site/plugged')
 
 
 
+" undotree
+nnoremap <leader>ud :UndotreeToggle<CR>
+set undodir=~/.undodir/
+set undofile
+
 " Python-mode
-" 更改python路径
+" 更改vim's python路径
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+source ~/.config/nvim/python_mode.vim
 
 " coc.nvim -> complete
 " 配置js环境，见wiki
@@ -38,9 +44,12 @@ Plug 'tpope/vim-surround'
 
 " easymotion -> ss
 Plug 'easymotion/vim-easymotion'
+nmap ss <Plug>(easymotion-s2)
 
 " tagbar -> right_tag
 Plug 'majutsushi/tagbar'
+nnoremap <leader>tb :Tagbar<CR>
+let g:tagbar_width=30
 
 " commentary -> /*...*/
 Plug 'tpope/vim-commentary'
@@ -56,6 +65,40 @@ Plug 'airblade/vim-gitgutter'
 
 " undotree
 Plug 'mbbill/undotree'
+
+
+
+" vim-markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+" start LaTeX
+let g:vim_markdown_math = 1
+" 禁用折叠
+" let g:vim_markdown_folding_disabled = 1
+" Vim的标准隐藏配置
+set conceallevel=2
+" 禁用隐藏
+let g:vim_markdown_conceal = 0
+" 缩进为2
+let g:vim_markdown_new_list_item_indent = 4
+
+" markdown-preview.nvim
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+" 指定浏览器路径
+" let g:mkdp_path_to_chrome = "path/of/chrome"
+
+" ultimate solution for snippets
+Plug 'SirVer/ultisnips'
+"设置tab键为触发键
+let g:UltiSnipsExpandTrigger = '<tab>'
+"设置向后跳转键
+let g:UltiSnipsJumpForwardTrigger = '<tab>' 
+"设置向前跳转键
+let g:UltiSnipsJumpBackwardTrigger = '<C-p>' 
+"设置文件目录
+"let g:UltiSnipsSnippetDirectories=["path/of/snippetDirectories"]
+"设置打开配置文件时为垂直打开
+"let g:UltiSnipsEditSplit="vertical" 
 
 
 
