@@ -70,16 +70,23 @@ Plug 'mbbill/undotree'
 
 " vim-markdown
 Plug 'godlygeek/tabular'
+
 Plug 'plasticboy/vim-markdown'
 " start LaTeX
 let g:vim_markdown_math = 1
 " 禁用折叠
 " let g:vim_markdown_folding_disabled = 1
+" 以类似python-mode的样式进行折叠
+let g:vim_markdown_folding_style_pythonic = 1
 " Vim的标准隐藏配置
 set conceallevel=2
-" 禁用隐藏
+" 禁用语法隐藏
 let g:vim_markdown_conceal = 0
-" 缩进为2
+" 禁用LaTeX隐藏
+let g:tex_conceal = 0
+" 禁用隐藏代码栅栏
+let g:vim_markdown_conceal_code_blocks = 0
+" 缩进为4
 let g:vim_markdown_new_list_item_indent = 4
 
 " markdown-preview.nvim
