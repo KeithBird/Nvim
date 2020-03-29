@@ -29,7 +29,7 @@
 | `git commit -m #`        | 提交改变            |
 | `git commit -am #`       | add + commit        |
 | `git log`                | 查看修改记录        |
-| `git reset --hard <id>`  | 退回历史commit      |
+| `git reset --hard <id>`  | 退回历史commit      |
 |                          |                     |
 | `git push origin master` | pushmaster          |
 | `git branch`             | 显示分支            |
@@ -88,9 +88,11 @@
 
 ## Linux App
 
-### Mac Mac HomeBrew
+### Mac HomeBrew
 
 [Brew国内镜像安装方法](https://blog.csdn.net/MTCwrite/article/details/99856756)
+
+[清华镜像站](https://mirror.tuna.tsinghua.edu.cn/help/homebrew/)
 
 |                |          |
 |----------------|----------|
@@ -135,6 +137,26 @@
 
 [配置 Python 开发环境](https://ncfun.gitee.io/2019/11/06/Neovim配置Python开发环境/)
 
+### Tmux
+
+|                         |                     |
+| :---------------------- | :------------------ |
+| `tmux new -s <name>`    | 新建session         |
+| `tmux attach -t <name>` | 接入已存在的session |
+| `tmux switch -t <name>` | 切换会话            |
+| `^b+%`                  | 横分屏              |
+| `^b+"`                  | 竖分屏              |
+| `^b+p`                  | 上一个session       |
+| `^b+s`                  | session列表         |
+| `^b+$`                  | 重命名会话          |
+| `^b+c`                  | 新建win             |
+| `^b+p`                  | 上一个win           |
+| `^b+d`                  | 将session放到后台   |
+| `^b+w`                  | 窗口列表            |
+| `^b+x`                  | 关闭当前win         |
+| `^b+,`                  | 窗口重命名          |
+| `^b <number>`           | 切换窗口            |
+
 ### Ranger
 
 [ranger.github](https://github.com/ranger/ranger)
@@ -142,6 +164,12 @@
 ### FZF
 
 [FZF.github](https://github.com/junegunn/fzf)
+
+### the_silver_searcher
+
+[the_silver_searcher.github](https://github.com/ggreer/the_silver_searcher)
+
+[how to zshrc](https://www.bilibili.com/video/av80254519)
 
 ### Apache
 
@@ -156,33 +184,4 @@
 ### MySQL
 
 [SQL常用语句](https://www.cnblogs.com/liu224/p/10754991.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

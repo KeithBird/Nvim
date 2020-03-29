@@ -1,3 +1,9 @@
+" __  ____   __  _   ___     _____ __  __ ____   ____
+"|  \/  \ \ / / | \ | \ \   / /_ _|  \/  |  _ \ / ___|
+"| |\/| |\ V /  |  \| |\ \ / / | || |\/| | |_) | |
+"| |  | | | |   | |\  | \ V /  | || |  | |  _ <| |___
+"|_|  |_| |_|   |_| \_|  \_/  |___|_|  |_|_| \_\\____|
+
 " 行号
 set number
 	
@@ -40,10 +46,10 @@ noremap <C-l> <C-w>l
 " Sudo to write	强制保存
 cnoremap w!! w !sudo tee % >/dev/null
 
-" 自动补全
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap { {}<Esc>i
+" 自动补全 coc-pairs
+" inoremap ( ()<Esc>i
+" inoremap [ []<Esc>i
+" inoremap { {}<Esc>i
 
 nnoremap <leader>ff :FZF<CR> 
 nnoremap <leader>nf :NERDTree<CR>
@@ -55,6 +61,8 @@ nnoremap <leader>ag :Ag<space>
 source ~/.config/nvim/plug.vim
 
 
+" md-snippets
+source ~/.config/nvim/md-snippets.vim
 
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath

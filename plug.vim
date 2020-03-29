@@ -13,11 +13,29 @@ set undofile
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 source ~/.config/nvim/python_mode.vim
 
+
+
 " coc.nvim -> complete
 " 配置js环境，见wiki
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" ~/.config/coc/extensions
+" coc-translator
+nmap <Leader>t <Plug>(coc-translator-p)
+vmap <Leader>t <Plug>(coc-translator-pv)
+" coc-actions
+function! s:cocActionsOpenFromSelected(type) abort
+    execute 'CocCommand actions.open ' . a:type
+endfunction
+xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
+nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
+"coc-bookmark
+nnoremap <leader>j <Plug>(coc-bookmark-next)
+nnoremap <leader>k <Plug>(coc-bookmark-prev)
+nnoremap <leader>m <Plug>(coc-bookmark-toggle)
+nnoremap <leader>mm <Plug>(coc-bookmark-annotate)
+nnoremap <leader>ml :CocList bookmark<CR>
 
-" neoformat -> autopep8
+
 " pip autopep8,见视频
 Plug 'sbdchd/neoformat'
 
@@ -72,6 +90,8 @@ Plug 'mbbill/undotree'
 Plug 'godlygeek/tabular'
 
 Plug 'plasticboy/vim-markdown'
+" 代码高亮
+let g:markdown_fenced_languages = ['css', 'js=javascript']
 " start LaTeX
 let g:vim_markdown_math = 1
 " 禁用折叠
