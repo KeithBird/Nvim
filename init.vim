@@ -14,18 +14,55 @@ syntax on
 colorscheme iceberg
 " colorscheme hybrid
 
+" 高亮光标所在行 
+set cursorline 
+set cursorcolumn
+
+" 用浅色高亮当前行
+" autocmd InsertEnter * se cul
+
+" 光标移动到buffer的顶部和底部时保持距离
+set scrolloff=5
+
+" 显示标尺
+set ruler
+
+" 输入的命令显示
+set showcmd
+
+" 允许折叠
+set foldenable
+
+" 自动缩进
+set autoindent
+set cindent
+
+" Tab键的宽度
+set tabstop=4
+
+" 统一缩进为4
+set softtabstop=4
+set shiftwidth=4
+
+"语言设置
+set langmenu=zh_CN.UTF-8
+set helplang=cn
+
+" 搜索忽略大小写
+set ignorecase
+
+" 高亮显示匹配的括号
+set showmatch
+" 匹配括号高亮的时间（单位是十分之一秒）
+set matchtime=1
+
 " leader = ' '
 let mapleader = "\<space>"
 let g:mapleader= "\<space>"
 
-" 缩进为4
-set shiftwidth=4
-    
-" 按F2进入粘贴模式
-set pastetoggle=<F2>
-
 " 高亮搜索
 set hlsearch
+set incsearch
 
 " 设置折叠方式
 " set foldmethod=indent
@@ -55,7 +92,7 @@ nnoremap <leader>ff :FZF<CR>
 nnoremap <leader>nf :NERDTree<CR>
 nnoremap <leader>ag :Ag<space>
 
-			
+
 
 " Plug
 source ~/.config/nvim/plug.vim
