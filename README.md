@@ -88,14 +88,16 @@
 
 ## Linux App
 
-### Mac HomeBrew
+### Brew
 
 [Brew国内镜像安装方法](https://blog.csdn.net/MTCwrite/article/details/99856756)
 
 [清华镜像站](https://mirror.tuna.tsinghua.edu.cn/help/homebrew/)
 
-|                |          |
-|----------------|----------|
+[Linux Brew](https://www.cnblogs.com/hongdada/p/9528560.html)
+
+|                |         |
+|----------------|---------|
 | `brew ls`      | 软件列表 |
 | `brew ls Name` | 软件路径 |
 
