@@ -140,6 +140,8 @@
 
 [pip下载速度过慢的问题](https://www.jianshu.com/p/2df68aa7fcea)
 
+[CentOS 安装 Python3.8](https://liqiang.io/post/install-python3-8-in-centos-973bdb81)
+
 ### Neovim
 
 [配置 Python 开发环境](https://ncfun.gitee.io/2019/11/06/Neovim配置Python开发环境/)
