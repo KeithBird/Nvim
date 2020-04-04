@@ -135,7 +135,7 @@
 
 1. apt -> python -> pip
 2. [brew install python3](https://www.jianshu.com/p/998d32049be3)
-3. sudo apt-get install pip3
+3. [Python pip](https://www.runoob.com/w3cnote/python-pip-install-usage.html)
 4. pip3 install --upgrade pip
 
 [pip下载速度过慢的问题](https://www.jianshu.com/p/2df68aa7fcea)
