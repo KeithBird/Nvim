@@ -88,6 +88,10 @@
 
 ## Linux App
 
+### SSH
+
+[周莫烦](https://morvanzhou.github.io/tutorials/others/linux-basic/4-01-ssh-from-linux-or-mac/)
+
 ### Brew
 
 [Brew国内镜像安装方法](https://blog.csdn.net/MTCwrite/article/details/99856756)
@@ -130,8 +134,9 @@
 | `pip show name` | 软件路径 |
 
 1. apt -> python -> pip
-2. sudo apt-get install pip3
-3. pip3 install --upgrade pip
+2. [brew install python3](https://www.jianshu.com/p/998d32049be3)
+3. sudo apt-get install pip3
+4. pip3 install --upgrade pip
 
 [pip下载速度过慢的问题](https://www.jianshu.com/p/2df68aa7fcea)
 
