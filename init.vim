@@ -6,7 +6,8 @@
 
 " 行号
 set number
-	
+set relativenumber
+
 " 代码高亮
 syntax on
 

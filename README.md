@@ -111,13 +111,13 @@
 
 [常用的Apt命令](https://www.cnblogs.com/chao538/p/7906279.html)
 
-|                   |                  |
-|-------------------|------------------|
-| `apt-get update`  | 更新软件库       |
-| `apt-get upgrade` | 升级软件         |
-| `dpkg -L name`    | 软件包的所有位置 |
-| `dpkg -l name`    | 安装路径         |
-| `/usr/share`      | 软件包位置       |
+|                        |                  |
+| ---------------------- | ---------------- |
+| `sudo apt-get update`  | 更新软件库       |
+| `sudo apt-get upgrade` | 升级软件         |
+| `dpkg -L name`         | 软件包的所有位置 |
+| `dpkg -l name`         | 安装路径         |
+| `/usr/share`           | 软件包位置       |
 
 ### zsh
 
@@ -166,6 +166,10 @@
 | `^b+,`                  | 窗口重命名          |
 | `^b <number>`           | 切换窗口            |
 
+### Glances
+
+`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple Glances`
+
 ### Ranger
 
 [ranger.github](https://github.com/ranger/ranger)
@@ -180,11 +184,21 @@
 
 [how to zshrc](https://www.bilibili.com/video/av80254519)
 
+### Coc
+
+`CocInstall coc-snippets coc-pairs coc-lists coc-highlight coc-calc coc-bookmark  coc-texlab`
+
+`CocInstall coc-actions coc-python coc-phpls coc-markdownlint`
+
+`CocInstall coc-json coc-html coc-css coc-yank coc-translator`
+
 ### Apache
 
 [Apache部署](https://blog.csdn.net/weixin_38044888/article/details/90475642)
 
 ### Xvim2
+
+[Xvim博客](https://note.wuze.me/xvim2)
 
 [Xvim2.github](https://github.com/XVimProject/XVim2)
 
@@ -193,4 +207,3 @@
 ### MySQL
 
 [SQL常用语句](https://www.cnblogs.com/liu224/p/10754991.html)
-

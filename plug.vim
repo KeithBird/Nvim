@@ -88,18 +88,17 @@ Plug 'mbbill/undotree'
 
 " vim-markdown
 Plug 'godlygeek/tabular'
-
 Plug 'plasticboy/vim-markdown'
 " 代码高亮
 let g:markdown_fenced_languages = ['css', 'js=javascript']
 " start LaTeX
 let g:vim_markdown_math = 1
 " 禁用折叠
-" let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_disabled = 1
 " 以类似python-mode的样式进行折叠
-let g:vim_markdown_folding_style_pythonic = 1
+" let g:vim_markdown_folding_style_pythonic = 1
 " Vim的标准隐藏配置
-set conceallevel=2
+" set conceallevel=2
 " 禁用语法隐藏
 let g:vim_markdown_conceal = 0
 " 禁用LaTeX隐藏
@@ -137,7 +136,10 @@ Plug 'w0ng/vim-hybrid'
 " iceberg
 Plug 'cocopon/iceberg.vim'
 
-
+" vimtex
+Plug 'lervag/vimtex'
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
 
 " Initialize plugin system
 call plug#end()
