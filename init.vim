@@ -23,7 +23,7 @@ set cursorcolumn
 " autocmd InsertEnter * se cul
 
 " 光标移动到buffer的顶部和底部时保持距离
-set scrolloff=5
+set scrolloff=10
 
 " 显示标尺
 set ruler
@@ -66,7 +66,7 @@ set hlsearch
 set incsearch
 
 " 设置折叠方式
-" set foldmethod=indent
+set foldmethod=indent
 
 " jj进入normal模式
 inoremap jj <Esc>`^

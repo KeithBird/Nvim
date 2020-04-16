@@ -192,6 +192,20 @@
 
 `CocInstall coc-json coc-html coc-css coc-yank coc-translator`
 
+### Compton
+
+[github](https://github.com/chjj/compton)
+
+[毛玻璃特效](https://github.com/tryone144/compton)
+
+[TheCW](https://www.bilibili.com/video/BV1j4411z7ze)
+
+### dwm
+
+[suckless](http://dwm.suckless.org)
+
+[TheCW](https://www.bilibili.com/video/BV11J411t7RY)
+
 ### Apache
 
 [Apache部署](https://blog.csdn.net/weixin_38044888/article/details/90475642)
