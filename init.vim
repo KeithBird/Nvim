@@ -66,7 +66,7 @@ set hlsearch
 set incsearch
 
 " 设置折叠方式
-set foldmethod=indent
+" set foldmethod=indent
 
 " jj进入normal模式
 inoremap jj <Esc>`^
