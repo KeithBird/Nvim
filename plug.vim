@@ -36,7 +36,7 @@ nnoremap <leader>mm <Plug>(coc-bookmark-annotate)
 nnoremap <leader>ml :CocList bookmark<CR>
 
 
-" pip autopep8,见视频
+" pip autopep8, 见视频
 Plug 'sbdchd/neoformat'
 
 " ale -> linter 异步语法检查
