@@ -1,18 +1,8 @@
 # About Linux
 
+/Users/keithbird/.config/nvim
+
 ## neovim
-
-### Vim Markdown
-
-**zr：** 降低整个缓冲区的折叠级别
-
-**zm：** 增加整个缓冲区的折叠级别
-
-**za：** 打开光标所在的折叠
-
-**zc：** 关闭光标所在的折痕
-
-**zC：** 递归关闭光标所在的位置
 
 ### Git
 
@@ -40,6 +30,18 @@
 | `git branch -d #`        | 删除分支            |
 | `git checkout --<file>`  | 用HEAD恢复改动      |
 | `git pull`               | 更新本地仓库        |
+
+### Vim Markdown
+
+**zr：** 降低整个缓冲区的折叠级别
+
+**zm：** 增加整个缓冲区的折叠级别
+
+**za：** 打开光标所在的折叠
+
+**zc：** 关闭光标所在的折痕
+
+**zC：** 递归关闭光标所在的位置
 
 ### Surround
 
@@ -84,9 +86,9 @@
 
 ### [LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)
 
-
-
 ## Linux App
+
+### lazygit
 
 ### SSH
 
