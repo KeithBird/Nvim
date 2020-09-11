@@ -92,7 +92,7 @@
 
 ### SSH
 
-[周莫烦](https://morvanzhou.github.io/tutorials/others/linux-basic/4-01-ssh-from-linux-or-mac/)
+[周莫烦](https://mofanpy.com/tutorials/others/linux-basic/ssh-from-linux-or-mac/)
 
 ### Brew
 

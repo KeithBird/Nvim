@@ -93,11 +93,10 @@ nnoremap <leader>ff :FZF<CR>
 nnoremap <leader>nf :NERDTree<CR>
 nnoremap <leader>ag :Ag<space>
 
-
+" Source
 
 " Plug
 source ~/.config/nvim/plug.vim
-
 
 " md-snippets
 source ~/.config/nvim/md-snippets.vim
