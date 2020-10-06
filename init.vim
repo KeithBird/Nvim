@@ -104,6 +104,11 @@ source ~/.config/nvim/md-snippets.vim
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
 
+" sourcekit
+" https://github.com/klaaspieter/coc-sourcekit
+autocmd BufNewFile,BufRead *.swift set filetype=swift
+let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
+
 " Ubuntu
 " let g:python3_host_prog = '/usr/bin/python3'
 

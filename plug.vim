@@ -237,6 +237,11 @@ Plug 'w0ng/vim-hybrid'
 " =======
 Plug 'cocopon/iceberg.vim'
 
+" swift.vim
+" =========
+Plug 'keith/swift.vim'
+Plug 'vim-syntastic/syntastic'
+
 " Initialize plugin system
 call plug#end()
 
