@@ -7,6 +7,8 @@
 " 行号
 set number
 set relativenumber
+set autoindent
+set cindent
 
 " 代码高亮
 syntax on
@@ -88,6 +90,7 @@ cnoremap w!! w !sudo tee % >/dev/null
 " inoremap ( ()<Esc>i
 " inoremap [ []<Esc>i
 " inoremap { {}<Esc>i
+imap {<CR> {<CR>}<ESC>O
 
 nnoremap <leader>ff :FZF<CR> 
 nnoremap <leader>nf :NERDTree<CR>
