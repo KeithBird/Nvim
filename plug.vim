@@ -228,6 +228,7 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-p>'
 
 
 " /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/colors
+" /usr/share/nvim/runtime/colors
 
 " hybrid
 " ======

@@ -14,8 +14,8 @@ set cindent
 syntax on
 
 " 主题
-colorscheme iceberg
-" colorscheme hybrid
+" colorscheme iceberg
+colorscheme hybrid
 
 " 高亮光标所在行 
 set cursorline 
