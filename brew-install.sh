@@ -11,7 +11,20 @@ echo "install brew..."
 echo "brew update..."
 brew update
 
+echo "install zsh..."
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git clone https://github.com/KeithBird/nvim/.zshrc ~/.zshrc
+
+chsh -s /bin/zsh
+
 # brew install
+echo "install git"
+brew install git
+
+echo "install neovim"
+brew install neovim
+
 echo "install fzf"
 brew install fzf
 
