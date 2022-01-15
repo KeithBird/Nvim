@@ -1,9 +1,22 @@
 # App Store
+# - Xnip
 # - Xcode
 # - Eudic
+# - Reeder
 # - Magnet
 # - PasteNow
-# - Tencent Lemon Lite
+# - Developer
+# - amphetamine
+# - Tencent Lemon
+
+
+
+# Website
+# [Control Room](https://github.com/twostraws/ControlRoom)
+# [Cleaner for Xcode](https://github.com/waylybaye/XcodeCleaner-SwiftUI)
+# [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
+
+
 
 echo "install brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -18,12 +31,87 @@ git clone https://github.com/KeithBird/nvim/.zshrc ~/.zshrc
 
 chsh -s /bin/zsh
 
+
+
 # brew install
+
+echo "install Eudic"
+brew install --cask eudic
+
+echo "install IINA"
+brew install --cask iina
+
+echo "install thunder"
+brew install --cask thunder
+
+echo "install Xcodes"
+brew install --cask xcodes
+
+echo "install Notion"
+brew install --cask notion
+
+echo "keka"
+brew install --cask keka
+
+echo "install Tencent Lemon"
+brew install --cask tencent-lemon
+
+echo "install GitHub Desktop"
+brew install --cask github
+
+echo "install periphery"
+brew install peripheryapp/periphery/periphery
+
+echo "install SF Symbols"
+brew install --cask sf-symbols
+
+echo "install Chrome"
+brew install --cask google-chrome
+
+echo "install Visual Studio Code"
+brew install --cask visual-studio-code
+
+
+
+# echo "install QQ"
+# brew install --cask qq
+
+# echo "install Wechat"
+# brew install --cask wechat
+
+# echo "install telegram"
+# brew install --cask telegram
+
+# echo "install cocoapods"
+# brew install cocoapods
+
+# echo "grammarly"
+# brew install --cask grammarly
+
+# echo "install figma"
+# brew install --cask figma
+
+# echo "install alfred"
+# brew install --cask alfred
+
+# echo "install ali driver"
+# brew install --cask adrive
+
+# echo "install baidu netdisk"
+# brew install --cask baidunetdisk
+
+# echo "install baidu monitorcontrol"
+brew install --cask monitorcontrol
+
+
+
+# terminal
+
+echo "install swiftlint"
+brew install swiftlint
+
 echo "install git"
 brew install git
-
-echo "install neovim"
-brew install neovim
 
 echo "install fzf"
 brew install fzf
@@ -34,38 +122,8 @@ brew install tmux
 echo "install tldr"
 brew install tldr
 
-echo "install Eudic"
-brew install --cask eudic
-
-echo "install IINA"
-brew install --cask iina
-
-echo "install Xcodes"
-brew install --cask xcodes
-
-echo "install Notion"
-brew install --cask notion
-
-echo "install Chrome"
-brew install --cask google-chrome
-
-echo "install swiftlint"
-brew install swiftlint
-
-echo "install cocoapods"
-brew install cocoapods
-
-echo "install periphery"
-brew install peripheryapp/periphery/periphery
-
-echo "install Tencent Lemon"
-brew install --cask tencent-lemon
-
-echo "install GitHub Desktop"
-brew install --cask github
-
-echo "install Visual Studio Code"
-brew install --cask visual-studio-code
+echo "install neovim"
+brew install neovim
 
 # 开始更新软件
 echo "brew upgrade..."
