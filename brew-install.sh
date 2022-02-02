@@ -35,6 +35,9 @@ chsh -s /bin/zsh
 
 # brew install
 
+# GitHub CLI
+brew install gh
+
 echo "install Eudic"
 brew install --cask eudic
 
