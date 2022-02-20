@@ -117,6 +117,9 @@ alias python2='/system/Library/Frameworks/Python.framework/Versions/2.7/bin/pyth
 alias python3='/usr/local/bin/python3'
 alias python=python3
 
+alias pip3=python -m pip -V
+alias pip=pip3     
+
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
