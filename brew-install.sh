@@ -38,9 +38,6 @@ chsh -s /bin/zsh
 # GitHub CLI
 brew install gh
 
-echo "install Eudic"
-brew install --cask eudic
-
 echo "install IINA"
 brew install --cask iina
 
@@ -127,6 +124,9 @@ brew install tldr
 
 echo "install neovim"
 brew install neovim
+
+echo "install ranger"
+brew install ranger
 
 # 开始更新软件
 echo "brew upgrade..."
