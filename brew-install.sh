@@ -73,6 +73,9 @@ brew install --cask visual-studio-code
 
 
 
+# echo "install fig"
+brew install --cask fig
+
 # echo "install QQ"
 # brew install --cask qq
 
@@ -100,7 +103,7 @@ brew install --cask visual-studio-code
 # echo "install baidu netdisk"
 # brew install --cask baidunetdisk
 
-# echo "install baidu monitorcontrol"
+# echo "install monitorcontrol"
 brew install --cask monitorcontrol
 
 
@@ -127,6 +130,11 @@ brew install neovim
 
 echo "install ranger"
 brew install ranger
+
+# echo "install lazygit"
+brew install lazygit
+
+
 
 # 开始更新软件
 echo "brew upgrade..."
