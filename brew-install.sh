@@ -71,10 +71,12 @@ brew install --cask google-chrome
 echo "install Visual Studio Code"
 brew install --cask visual-studio-code
 
+echo "install Warp"
+brew install --cask warp
 
 
 # echo "install fig"
-brew install --cask fig
+# brew install --cask fig
 
 # echo "install QQ"
 # brew install --cask qq
@@ -94,9 +96,6 @@ brew install --cask fig
 # echo "install figma"
 # brew install --cask figma
 
-# echo "install alfred"
-# brew install --cask alfred
-
 # echo "install ali driver"
 # brew install --cask adrive
 
@@ -104,7 +103,7 @@ brew install --cask fig
 # brew install --cask baidunetdisk
 
 # echo "install monitorcontrol"
-brew install --cask monitorcontrol
+# brew install --cask monitorcontrol
 
 
 
