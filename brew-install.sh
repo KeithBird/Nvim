@@ -71,9 +71,11 @@ brew install --cask google-chrome
 echo "install Visual Studio Code"
 brew install --cask visual-studio-code
 
+echo "install raycast"
+brew install --cask raycast
+
 echo "install Warp"
 brew install --cask warp
-
 
 # echo "install fig"
 # brew install --cask fig
