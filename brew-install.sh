@@ -35,7 +35,7 @@ chsh -s /bin/zsh
 
 # brew install
 
-# GitHub CLI
+echo "install GitHub CLI"
 brew install gh
 
 echo "install IINA"
@@ -50,7 +50,7 @@ brew install --cask xcodes
 echo "install Notion"
 brew install --cask notion
 
-echo "keka"
+echo "install keka"
 brew install --cask keka
 
 echo "install Tencent Lemon"
@@ -77,17 +77,23 @@ brew install --cask raycast
 echo "install Warp"
 brew install --cask warp
 
-# echo "install fig"
-# brew install --cask fig
+echo "install fig"
+brew install --cask fig
 
-# echo "install QQ"
-# brew install --cask qq
+echo "install bilibili"
+brew install --cask bilibili
 
-# echo "install Wechat"
-# brew install --cask wechat
+echo "install QQ"
+brew install --cask qq
 
-# echo "install telegram"
-# brew install --cask telegram
+echo "install Wechat"
+brew install --cask wechat
+
+echo "install telegram"
+brew install --cask telegram
+
+echo "install ali driver"
+brew install --cask adrive
 
 # echo "install cocoapods"
 # brew install cocoapods
@@ -97,9 +103,6 @@ brew install --cask warp
 
 # echo "install figma"
 # brew install --cask figma
-
-# echo "install ali driver"
-# brew install --cask adrive
 
 # echo "install baidu netdisk"
 # brew install --cask baidunetdisk
