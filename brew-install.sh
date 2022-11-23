@@ -11,10 +11,14 @@
 
 
 
+
+
 # Website
 # [Control Room](https://github.com/twostraws/ControlRoom)
 # [Cleaner for Xcode](https://github.com/waylybaye/XcodeCleaner-SwiftUI)
 # [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
+
+
 
 
 
@@ -33,10 +37,9 @@ chsh -s /bin/zsh
 
 
 
-# brew install
 
-echo "install GitHub CLI"
-brew install gh
+
+# brew install
 
 echo "install IINA"
 brew install --cask iina
@@ -59,23 +62,8 @@ brew install --cask tencent-lemon
 echo "install GitHub Desktop"
 brew install --cask github
 
-echo "install periphery"
-brew install peripheryapp/periphery/periphery
-
-echo "install SF Symbols"
-brew install --cask sf-symbols
-
 echo "install Chrome"
 brew install --cask google-chrome
-
-echo "install Visual Studio Code"
-brew install --cask visual-studio-code
-
-echo "install raycast"
-brew install --cask raycast
-
-echo "install Warp"
-brew install --cask warp
 
 echo "install fig"
 brew install --cask fig
@@ -95,9 +83,6 @@ brew install --cask telegram
 echo "install ali driver"
 brew install --cask adrive
 
-# echo "install cocoapods"
-# brew install cocoapods
-
 # echo "grammarly"
 # brew install --cask grammarly
 
@@ -107,12 +92,38 @@ brew install --cask adrive
 # echo "install baidu netdisk"
 # brew install --cask baidunetdisk
 
+
+
+
+
+# Dev tools
+
+echo "install lookin"
+brew install --cask lookin
+
 # echo "install monitorcontrol"
 # brew install --cask monitorcontrol
+
+echo "install Visual Studio Code"
+brew install --cask visual-studio-code
+
+echo "install raycast"
+brew install --cask raycast
+
+echo "install periphery"
+brew install peripheryapp/periphery/periphery
+
+echo "install SF Symbols"
+brew install --cask sf-symbols
+
+
 
 
 
 # terminal
+
+echo "install GitHub CLI"
+brew install gh
 
 echo "install swiftlint"
 brew install swiftlint
@@ -137,6 +148,8 @@ brew install ranger
 
 # echo "install lazygit"
 brew install lazygit
+
+
 
 
 
