@@ -39,7 +39,7 @@ chsh -s /bin/zsh
 
 
 
-# brew install
+# Cask Apps
 
 echo "install IINA"
 brew install --cask iina
@@ -62,14 +62,11 @@ brew install --cask tencent-lemon
 echo "install GitHub Desktop"
 brew install --cask github
 
-echo "install Chrome"
-brew install --cask google-chrome
+# echo "install Chrome"
+# brew install --cask google-chrome
 
 echo "install fig"
 brew install --cask fig
-
-echo "install bilibili"
-brew install --cask bilibili
 
 echo "install QQ"
 brew install --cask qq
@@ -82,6 +79,9 @@ brew install --cask telegram
 
 echo "install ali driver"
 brew install --cask adrive
+
+echo "install flomo"
+brew install --cask flomo
 
 # echo "grammarly"
 # brew install --cask grammarly
@@ -96,13 +96,13 @@ brew install --cask adrive
 
 
 
-# Dev tools
+# Dev Tools
 
 echo "install lookin"
 brew install --cask lookin
 
-# echo "install monitorcontrol"
-# brew install --cask monitorcontrol
+echo "install monitorcontrol"
+brew install --cask monitorcontrol
 
 echo "install Visual Studio Code"
 brew install --cask visual-studio-code
@@ -113,35 +113,41 @@ brew install --cask raycast
 echo "install periphery"
 brew install peripheryapp/periphery/periphery
 
+echo "install lookin"
+brew install --cask lookin
+
 echo "install SF Symbols"
 brew install --cask sf-symbols
 
+echo "install swiftformat-for-xcode"
+brew install --cask swiftformat-for-xcode
 
 
 
 
-# terminal
 
-echo "install GitHub CLI"
-brew install gh
-
-echo "install swiftlint"
-brew install swiftlint
+# Command-line Tools
 
 echo "install git"
 brew install git
 
-echo "install fzf"
-brew install fzf
+echo "install GitHub CLI"
+brew install gh
 
-echo "install tmux"
-brew install tmux
+echo "install swiftformat"
+brew install swiftformat
+
+# echo "install fzf"
+# brew install fzf
+
+# echo "install tmux"
+# brew install tmux
 
 echo "install tldr"
 brew install tldr
 
-echo "install neovim"
-brew install neovim
+# echo "install neovim"
+# brew install neovim
 
 echo "install ranger"
 brew install ranger
