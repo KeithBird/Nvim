@@ -48,7 +48,7 @@ echo "install thunder"
 brew install --cask thunder
 
 echo "install Xcodes"
-brew install --cask xcodes
+brew install robotsandpencils/made/xcodes
 
 echo "install Notion"
 brew install --cask notion
